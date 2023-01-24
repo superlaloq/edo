@@ -1,0 +1,84 @@
+
+    * {
+        margin: 0;
+        /* sin margen */
+        padding: 0;
+        /*  sin relleno */
+        box-sizing: border-box;
+        /*para que los elementos se adapten al contenedor */
+    }
+
+    body {
+        font-family: sans-serif;
+        /* fuente */
+    }
+
+    /* estilo de los contenedores */
+    #products,
+    #cart {
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px;
+        background: #f2f2f2;
+        border-radius: 10px;
+    }
+
+    #products ul,
+    #cart ul {
+        /* estilo de las listas */
+        list-style: none;
+    }
+
+    #products ul li,
+    #cart ul li {
+        /* estilo de los elementos de las listas */
+        margin-bottom: 10px;
+    }
+
+    #products button,
+    #cart button {
+        /* estilo de los botones */
+        padding: 5px 10px;
+        background: #c82333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #cart button {
+        /* estilo del botón descargar */
+        float: right;
+    }
+
+
+
+
+
+#video {
+    /* position: absolute; */
+    position: relative;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+
+}
+
+li {
+    color: coral;
+    position: relative;
+
+}
+
+#div1 {
+    /* position: relative;  */
+
+    position: absolute;
+
+}
+
+#div2 {
+    /* position: relative;  */
+    position: absolute;
+
+}

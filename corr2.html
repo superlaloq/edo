@@ -1,0 +1,105 @@
+<!--Definición del documento HTML-->
+<!DOCTYPE html>
+
+<!--Definición del lenguaje-->
+<html lang="en">
+
+<!--Definición de los metadatos-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="tienda.css">
+
+</head>
+
+<!--Definición del contenido de la página-->
+
+<body>
+    <h1>Definición del documento HTML,<br> "Carrito de Compras"</h1>
+    <div id="products">
+        <h2>Carrito de Compras</h2>
+        <ul>
+            <li><button onclick="addToCart('Camisa', 15000)" type="button" class="add" data-name="Camisa"
+                    data-price="15000">Añadir camisa $15000</button></li>
+            <li><button onclick="addToCart('Pantalón', 19000)" type="button" class="add" data-name="Pantalón"
+                    data-price="19000">Añadir pantalón $19000</button></li>
+            <li><button onclick="addToCart('Zapatos', 23000)" type="button" class="add" data-name="Zapatos"
+                    data-price="23000">Añadir zapatos $23000</button></li>
+        </ul>
+    </div>
+    <div id="cart">
+        <h2>Carrito</h2>
+        <p>Subtotal: <span id="subtotal">0.00</span></p>
+        <p>IVA: <span id="iva">0.00</span></p>
+        <p>Total: <span id="total">0.00</span></p>
+        <ul>
+        </ul>
+        <button onclick="descargar()" type="button" class="descargar">Descargar regístro</button>
+    </div>
+    <script src="appcarro.js"></script>
+</body>
+
+<!--Definición de la función JavaScript-->
+
+
+
+<!--Definición del estilo de la página-->
+<!-- Respaldo para hacer pruebas de pintado con seguridad desde la hoja de estilkos, 
+    se podrá copiar el trozo de codigo a rescatar desde aquí -->
+
+<!--<style>
+    /* * {
+        margin: 0;
+        /* sin margen */
+        padding: 0;
+        /*  sin relleno */
+        box-sizing: border-box;
+        /*para que los elementos se adapten al contenedor */
+    }
+
+    body {
+        font-family: sans-serif;
+        /* fuente */
+    }
+
+    /* estilo de los contenedores */
+    #products,
+    #cart {
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px;
+        background: #f2f2f2;
+        border-radius: 10px;
+    }
+
+    #products ul,
+    #cart ul {
+        /* estilo de las listas */
+        list-style: none;
+    }
+
+    #products ul li,
+    #cart ul li {
+        /* estilo de los elementos de las listas */
+        margin-bottom: 10px;
+    }
+
+    #products button,
+    #cart button {
+        /* estilo de los botones */
+        padding: 5px 10px;
+        background: #c82333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #cart button {
+        /* estilo del botón descargar */
+        float: right;
+    } */
+</style>-->
+<!--SlQ-TD-UNAB-2023-->
